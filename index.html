@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ModbusMASTER</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f1117; font-family: sans-serif; min-height: 100vh; display: flex; justify-content: center; padding: 3rem 1.5rem; }
+    .page { display: flex; flex-direction: column; align-items: center; max-width: 600px; width: 100%; }
+    .badge { background: #1a2a1a; color: #4ade80; font-size: 12px; padding: 4px 14px; border-radius: 999px; border: 1px solid #4ade8044; margin-bottom: 1.5rem; }
+    h1 { font-size: 32px; font-weight: 500; color: #f1f5f9; text-align: center; margin-bottom: 0.75rem; }
+    h1 span { color: #22c55e; }
+    .subtitle { font-size: 16px; color: #94a3b8; text-align: center; max-width: 480px; line-height: 1.7; margin-bottom: 2.5rem; }
+    .btn { display: inline-flex; align-items: center; gap: 10px; background: #22c55e; color: #052e16; font-size: 15px; font-weight: 500; padding: 13px 32px; border-radius: 10px; text-decoration: none; }
+    .btn:hover { background: #16a34a; }
+    .btn i { font-size: 20px; }
+    hr { width: 100%; border: none; border-top: 1px solid #1e2a3a; margin: 2.5rem 0; }
+    .steps-title { font-size: 13px; color: #64748b; text-align: center; margin-bottom: 1.5rem; letter-spacing: 0.05em; text-transform: uppercase; }
+    .steps { display: flex; flex-direction: column; gap: 1rem; width: 100%; max-width: 480px; }
+    .step { display: flex; align-items: flex-start; gap: 14px; }
+    .num { min-width: 28px; height: 28px; border-radius: 50%; background: #1e293b; border: 1px solid #334155; display: flex; align-items: center; justify-content: center; font-size: 13px; color: #94a3b8; }
+    .step p { font-size: 14px; color: #94a3b8; padding-top: 4px; line-height: 1.6; }
+    .step strong { color: #cbd5e1; }
+    footer { margin-top: 3rem; font-size: 12px; color: #334155; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <span class="badge"><i class="ti ti-cpu"></i> versión más reciente disponible</span>
+    <h1>Modbus<span>MASTER</span></h1>
+    <p class="subtitle">Aplicación de escritorio para comunicación y monitoreo de dispositivos mediante el protocolo Modbus RTU/TCP.</p>
+    <a class="btn" href="MODBUS_MASTER.application">
+      <i class="ti ti-download"></i> Descargar e instalar
+    </a>
+    <hr>
+    <p class="steps-title">Instrucciones de instalación</p>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><p>Haz clic en <strong>Descargar e instalar</strong> para iniciar la instalación automática.</p></div>
+      <div class="step"><div class="num">2</div><p>Si Windows muestra una advertencia, haz clic en <strong>Más información → Ejecutar de todas formas</strong>.</p></div>
+      <div class="step"><div class="num">3</div><p>Sigue el asistente de instalación ClickOnce y espera a que finalice.</p></div>
+      <div class="step"><div class="num">4</div><p>La app se agregará automáticamente al <strong>menú de inicio</strong> de Windows.</p></div>
+    </div>
+    <footer>Desarrollado por JesusH79 · GitHub Pages</footer>
+  </div>
+</body>
+</html>
